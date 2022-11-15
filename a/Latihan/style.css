@@ -1,0 +1,60 @@
+/*tag line*/
+ /* h1 {
+background-color: brown;
+width: 200px;
+height: 100px;
+/*jika block custom width heigt bisa*/
+/*jika inline tidak bisa custom width heigt*/
+
+/* p { 
+    background-color: blue;
+}
+span{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+} */
+
+.konten{
+    height: 300px;
+    
+}
+.sidebar{
+    height: 300px;
+    
+
+}
+/* .satu{
+    background-color: blueviolet;
+}
+.dua{
+    background-color: chartreuse;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+.tiga{
+    background-color: lightcoral;
+    
+} */
+.container{
+    width: 450px;
+    height: 650px ;
+    margin: 5px auto;
+    border: 3px solid black;
+    /* position:  absolute; */
+    position: relative;
+}
+
+ /*
+ /* Margin bisa negatif -50 px, pading tidak bisa negatif*/
+ /*Margin Collabs/Overlaping Margin = margin yang paling tinggi saja top atau botom
+ jika top 100px dan botom 50px maka yang di ambil hanya 100px saja*/
+                                                                                             /*2*/
+/*Relatif itu maju satu layer tetapi elemen sebelumnya masih di posisinya tidak berubah jadi 1| |3*/
+                                                                              /*2*/
+/*absolute dia maju satu layer tetapi elemen nya maju contoh 1 |2 |3 jadinya 1 |3|  KETIBAN*/
+/*Class*/
+/*id*/
+/*inline-css*/
